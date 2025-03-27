@@ -9,7 +9,6 @@ template/slides/
 # main.*
 
 *.pdf
-*.html
 *.pptx
 
 # Ignore .env files
