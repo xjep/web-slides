@@ -1,0 +1,323 @@
+/* @theme beamer */
+/* Author: rnd195 https://github.com/rnd195/ */
+/* beam license - GNU GPLv3 https://github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE_beam */
+/* License of beamer which inspired this theme - GNU GPLv2 https://github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE_GPLv2 */
+
+@import "default";
+
+:root {
+  font-family: "CMU Sans Serif", "Segoe UI", Helvetica, sans-serif;
+  --main: #1f38c5;
+  --secondary: #141414;
+}
+
+section {
+  background-color: #ffffff;
+  /* bottom two-coloured bar in base64 svg */
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjUwbW0iIGhlaWdodD0iNS4zNTQ2bW0iIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDI1MCA1LjM1NDYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMC4zNDcgLTkxLjAyOCkiPgo8cmVjdCB4PSIyMC4zNDciIHk9IjkxLjAyOCIgd2lkdGg9IjEyNSIgaGVpZ2h0PSI1LjM1NDYiIGZpbGw9IiMxNDE0MTQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLXdpZHRoPSIwIi8+CjxwYXRoIGQ9Im0xNDUuMzUgOTMuNzA1di0yLjY3NzNoMTI1djUuMzU0NmgtMTI1eiIgZmlsbD0iIzFmMzhjNSIgc3Ryb2tlLXdpZHRoPSIwIi8+CjwvZz4KPC9zdmc+);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 150% 1em;
+  padding: 2em;
+}
+
+header {
+  font-size: 0.6em;
+  /* this text-align is important */
+  text-align: right;
+  /* I don't like this absolute positioning, but it works */
+  position: absolute;
+  top: 96.2%;
+  width: 100%;
+  right: 0;
+  left: -51%;
+  color: white;
+}
+
+footer {
+  font-size: 0.6em;
+  position: absolute;
+  /* this text-align is important */
+  text-align: left;
+  top: 96.2%;
+  width: 100%;
+  right: 0;
+  left: 50.8%;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #141414;
+}
+
+/* only apply to the first occurrence of h1 */
+h1:nth-of-type(1) {
+  font-family: "CMU Bright", "Segoe UI Semibold";
+  color: #ffffff;
+  background-color: var(--main);
+  border-top: 0.3em solid var(--main);
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 1.5em;
+  text-indent: 0.5em;
+}
+
+code {
+  background-color: rgba(100, 100, 100, 0.2);
+}
+
+mark {
+  background-color: #f5db7e;
+}
+
+/* formatting page numbers  */
+section::after {
+  font-size: 0.6em;
+  /* https://github.com/yhatt/marp/issues/263 */
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  position: absolute;
+  text-align: right;
+  top: 96.2%;
+  width: 100%;
+  right: 0;
+  left: -0.5em;
+  color: white;
+}
+
+/* inline math was too large wrt text */
+.katex {
+  font: normal 1.05em KaTeX_Main, "Times New Roman", serif;
+}
+
+/* the "center" keyword centers the image - may break, careful */
+/* https://github.com/marp-team/marpit/issues/141#issuecomment-473204518 */
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+/* || SECTION CLASS: title */
+/* title page - only to be used as for a single slide */
+/* <!-- _class: title --> */
+section.title > h1 {
+  font-family: "CMU Bright", "Segoe UI Semibold";
+  color: #ffffff;
+  background-color: var(--main);
+  border-radius: 25px;
+  text-align: center;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 0.2em;
+  height: auto;
+}
+
+/* remake this to be positioned with respect to h1 */
+section.title > p {
+  position: relative;
+  text-align: center;
+  top: 35px;
+}
+
+/* || SECTION CLASS: tinytext */
+/* new class that makes p, ul, and blockquote text smaller */
+/* might be useful for the References slide, use <!-- _class: tinytext --> */
+section.tinytext > p,
+section.tinytext > ul,
+section.tinytext > blockquote {
+  font-size: 0.65em;
+}
+
+/* foreground images */
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100vh;
+  object-position: center;
+  border-radius: 0.5rem;
+}
+
+/* 
+ * image positions
+ * usage: [center](image.png)
+ */
+img[alt~="center"] {
+  margin: 0 auto;
+}
+img[alt~="right"] {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+/* 
+ * image sizes
+ * usage: [center 20](image.png)
+ */
+img[alt~="20"] {
+  max-width: 20%;
+}
+img[alt~="25"] {
+  max-width: 25%;
+}
+img[alt~="30"] {
+  max-width: 30%;
+}
+img[alt~="35"] {
+  max-width: 35%;
+}
+img[alt~="40"] {
+  max-width: 40%;
+}
+img[alt~="45"] {
+  max-width: 45%;
+}
+img[alt~="50"] {
+  max-width: 50%;
+}
+img[alt~="55"] {
+  max-width: 55%;
+}
+img[alt~="60"] {
+  max-width: 60%;
+}
+img[alt~="65"] {
+  max-width: 65%;
+}
+img[alt~="70"] {
+  max-width: 70%;
+}
+img[alt~="75"] {
+  max-width: 75%;
+}
+img[alt~="80"] {
+  max-width: 80%;
+}
+img[alt~="85"] {
+  max-width: 85%;
+}
+img[alt~="90"] {
+  max-width: 90%;
+}
+img[alt~="95"] {
+  max-width: 95%;
+}
+
+/* 
+ * text sizes
+ * usage: <!-- _class: text-3xl -->
+*/
+section.text-3xl > p,
+section.text-3xl > ul,
+section.text-3xl > ol,
+section.text-3xl > blockquote,
+section.text-3xl > pre,
+section.text-3xl > table,
+.text-3xl {
+  font-size: 1.3em;
+}
+section.text-2xl > p,
+section.text-2xl > ul,
+section.text-2xl > ol,
+section.text-2xl > blockquote,
+section.text-2xl > pre,
+section.text-2xl > table,
+.text-2xl {
+  font-size: 1.2em;
+}
+section.text-xl > p,
+section.text-xl > ul,
+section.text-xl > ol,
+section.text-xl > blockquote,
+section.text-xl > pre,
+section.text-xl > table,
+.text-xl {
+  font-size: 1.1em;
+}
+section.text-xs > p,
+section.text-xs > ul,
+section.text-xs > ol,
+section.text-xs > blockquote,
+section.text-xs > pre,
+section.text-xs > table,
+.text-xs {
+  font-size: 0.9em;
+}
+section.text-2xs > p,
+section.text-2xs > ul,
+section.text-2xs > ol,
+section.text-2xs > blockquote,
+section.text-2xs > pre,
+section.text-2xs > table,
+.text-2xs {
+  font-size: 0.8em;
+}
+section.text-3xs > p,
+section.text-3xs > ul,
+section.text-3xs > ol,
+section.text-3xs > blockquote,
+section.text-3xs > pre,
+section.text-3xs > table,
+.text-3xs {
+  font-size: 0.7em;
+}
+section.text-4xs > p,
+section.text-4xs > ul,
+section.text-4xs > ol,
+section.text-4xs > blockquote,
+section.text-4xs > pre,
+section.text-4xs > table,
+.text-4xs {
+  font-size: 0.65em;
+}
+
+/* 
+ * text alignment
+ * usage: <!-- _class: text-col --> 
+ */
+section.text-col > p,
+section.text-col > ul,
+section.text-col > ol {
+  column-count: 2;
+  column-gap: 2em;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* list spacing */
+.space-between,
+section.space-between > ul,
+section.space-between > ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 45%;
+}
+
+/* 
+ * column layout
+ * usage: <!-- _class: col-2 -->
+ * recommended to use with div tags
+ */
+.col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  text-align: justify;
+}
+.col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  text-align: justify;
+}

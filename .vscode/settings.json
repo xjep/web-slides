@@ -1,0 +1,26 @@
+{
+  // editor settings
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  // marp settings
+  "markdown.marp.exportType": "html",
+  "markdown.marp.themes": [
+    "./themes/profundis.scss",
+    "./themes/gbv.scss",
+    "./themes/theme39.scss",
+    "./themes/cards.scss",
+    "./themes/graph_paper.css",
+    "./themes/rose_pine.css",
+    "./themes/beamer.css",
+    "./themes/border.css"
+  ],
+
+  // extension settings
+  "MarkdownPaste.path": "assets/${fileDirname}",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": ["firefox", "frontmatter", "profundis"],
+  "git.ignoreLimitWarning": true
+}

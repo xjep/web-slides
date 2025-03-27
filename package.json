@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "marp --html --allow-local-files --output dist/dark.html slides_dark.md && marp --html --allow-local-files --theme light --output dist/light.html slides_light.md"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.1"
+  }
+}

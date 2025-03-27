@@ -1,0 +1,28 @@
+# Ignore node_modules and dist folders
+node_modules
+dist
+template/textures/
+template/slides/
+
+# Ignore output files
+# output.*
+# main.*
+
+*.pdf
+*.html
+*.pptx
+
+# Ignore .env files
+.env
+
+# Ignore output files
+package-lock.json
+output.*
+
+# Include assets and themes folders
+!assets/*
+!themes/*
+!examples/*
+
+# Ensure main.md is included
+!main.md

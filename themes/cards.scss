@@ -1,0 +1,248 @@
+/* @theme cards */
+
+@import "default";
+@import url("https://fonts.googleapis.com/css?family=Roboto%20Slab:900|Noto%20Sans:400");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --bg-color: hsl(206, 75%, 97%);
+  --bg-accent: hsl(206, 50%, 97%);
+  --text-color: hsl(206, 50%, 5%);
+  --text-muted: hsla(203, 52%, 5%, 60%);
+  --border-color: hsl(206, 5%, 90%);
+  --border-accent: hsl(206, 35%, 35%);
+  --primary-color: hsl(206, 75%, 36%);
+
+  font-family: var(--heading-font);
+}
+
+section {
+  /* background-image: url("./themes/assets/profundis.webp");
+  background-size: cover; */
+  height: 9.1cm;
+  width: 5.9cm;
+  padding: 0.5cm;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  border-radius: 0.5cm;
+  font-size: 0.55rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+}
+
+h1 {
+  margin-bottom: auto;
+  font-family: Roboto Slab;
+  font-size: 1.1rem;
+  font-weight: 900;
+  line-height: 1.2rem;
+  word-spacing: 4pt;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+section:has(svg) h1 {
+  text-align: center;
+}
+section:not(:has(strong)) h1 {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-family: "Noto Sans";
+  font-size: 0.65rem;
+  line-height: 2ch;
+  margin: 0.4rem 0;
+}
+p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+section:not(:has(strong)) p:last-child {
+  margin-top: 0;
+}
+
+strong {
+  font-family: JetBrains Mono, Noto Sans;
+  font-weight: 900;
+  text-wrap: balance;
+}
+
+header {
+  opacity: 0;
+}
+footer {
+  opacity: 0;
+}
+section::after {
+  opacity: 0;
+}
+
+code {
+  background-color: var(--bg-accent);
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: var(--bg-accent);
+  border: 2px solid var(--border-color);
+  border-radius: 0.5rem;
+  text-align: left;
+  clear: both;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100vh;
+  object-position: center;
+  border-radius: 0.5rem;
+}
+
+img[alt~="center"] {
+  margin: 0 auto;
+}
+
+img[alt~="right"] {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+img[alt~="30"] {
+  max-width: 30%;
+  max-height: 30vh;
+}
+img[alt~="40"] {
+  max-width: 40%;
+  max-height: 40vh;
+}
+img[alt~="50"] {
+  max-width: 50%;
+  max-height: 50vh;
+}
+img[alt~="60"] {
+  max-width: 60%;
+  max-height: 60vh;
+}
+img[alt~="70"] {
+  max-width: 70%;
+  max-height: 70vh;
+}
+img[alt~="80"] {
+  max-width: 80%;
+  max-height: 80vh;
+}
+img[alt~="90"] {
+  max-width: 90%;
+  max-height: 90vh;
+}
+
+blockquote {
+  background: var(--bg-accent);
+  border-radius: 0.5rem;
+  border-left: 10px solid var(--primary-color);
+  padding: 0.5em;
+  clear: both;
+  text-align: left;
+}
+
+mark {
+  background-color: var(--bg-accent);
+  padding: 0 2px 2px;
+}
+
+table {
+  display: block;
+  margin: 1rem auto 1rem auto;
+  border: 2px solid var(--border-color);
+  border-radius: 0.5rem;
+  clear: both;
+  overflow: hidden;
+}
+
+th {
+  /* background-color: var(--bg-accent); */
+  background-color: var(--border-color);
+  color: var(--text-color);
+}
+
+/* SECTION CLASS: text-xs */
+/* might be useful for the References slide, use <!-- _class: text-xs --> */
+section.text-xs > p,
+section.text-xs > ul,
+section.text-xs > ol,
+section.text-xs > blockquote,
+section.text-xs > pre,
+section.text-xs > table,
+.text-xs {
+  font-size: 0.9em;
+}
+section.text-2xs > p,
+section.text-2xs > ul,
+section.text-2xs > ol,
+section.text-2xs > blockquote,
+section.text-2xs > pre,
+section.text-2xs > table,
+.text-2xs {
+  font-size: 0.8em;
+}
+section.text-3xs > p,
+section.text-3xs > ul,
+section.text-3xs > ol,
+section.text-3xs > blockquote,
+section.text-3xs > pre,
+section.text-3xs > table,
+.text-3xs {
+  font-size: 0.7em;
+}
+section.text-4xs > p,
+section.text-4xs > ul,
+section.text-4xs > ol,
+section.text-4xs > blockquote,
+section.text-4xs > pre,
+section.text-4xs > table,
+.text-4xs {
+  font-size: 0.65em;
+}
+
+/* SECTION CLASS: text-col */
+/* might be useful for the References slide, use <!-- _class: text-col --> */
+section.text-col > p,
+section.text-col > ul,
+section.text-col > ol {
+  column-count: 2;
+  column-gap: 2em;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  text-align: justify;
+}
+
+.morph {
+  display: inline-block;
+  view-transition-name: var(--morph-name);
+  contain: layout;
+  vertical-align: top;
+}
+
+svg {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: 1cm auto 0 auto;
+  color: var(--text-color);
+}
