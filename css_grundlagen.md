@@ -112,5 +112,8 @@ _Martin Kleindienst_
 
 ## Arbeitsauftrag
 
-Schaut euch <https://www.free-css.com/free-css-templates> an
-um ein Gefühl über den Umfang von CSS zu bekommen.
+Such dir ein Template von
+<https://www.free-css.com/free-css-templates>
+aus und füge dein Gericht in das Template ein.
+
+Passe dabei die Überschriftsebenen und die generelle Struktur deines ursprünglichen Dokuments an
