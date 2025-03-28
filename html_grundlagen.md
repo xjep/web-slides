@@ -60,6 +60,7 @@ und einer **Zip** Datei?
 <!-- ![bg fit 95%](images/WordStreamer.jpg) -->
 
 <svg width="1200" height="500" style="position: absolute; z-index: 2; margin-left: -55px; margin-top: -10px">
+
   <line x1="0" y1="170" x2="693" y2="0" stroke="gray" stroke-width="4"/>
   <line x1="80" y1="170" x2="1200" y2="0" stroke="gray" stroke-width="4" />
   <line x1="00" y1="235" x2="693" y2="450" stroke="gray" stroke-width="4" />
@@ -123,9 +124,8 @@ HTML 5.2 (14.12.2017)
     <!-- usw. Beispielsweise wird hier auch das externe CSS eingebunden -->
     <!-- aber dazu später mehr -->
   </head>
-  <style>
-    /* Hier wäre Platz für internes CSS. Aber dazu auch später mehr */
-  </style>
+
+
 
 </html>
 ```
@@ -141,8 +141,6 @@ HTML 5.2 (14.12.2017)
     <meta charset="utf-8"/>
     <meta name="viewpoint" content="width=device-width"/>
     <title>Big Brother Award</title>
-    <!-- usw. Beispielsweise wird hier "External CSS"  -->
-    <!-- eingebunden, aber dazu später mehr. -->
   </head>
   <style>
     /* Hier wäre Platz für "Internal CSS". Aber dazu auch später mehr */
@@ -271,7 +269,7 @@ Strukturiere das Dokument wie folgt:
 
 ## Arbeitsauftrag [2]
 
-3. Gib die Lizenz des Bildes und den Link zum Bild unter dem Bild als Text an.
+3. Gib die Lizenz des Bildes und den Link zum Bild unter dem Bild als Text an. (Verwende dazu das `<a>` Element!)
 4. Überschriftsebene 2: Zutaten
 5. Ungeordnete Liste aus den Zutaten
 6. Überschriftsebene 2: Zeit
