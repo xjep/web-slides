@@ -66,7 +66,7 @@ und einer **Zip** Datei?
   <line x1="80" y1="235" x2="1200" y2="450" stroke="gray" stroke-width="4" />
 </svg>
 
-<img src="images/WordStreamerFocused.jpg" alt="WordStreamerFocused" style="position: absolute; z-index: 3; top: 130px; left: 706px; width: 510px">
+<img src="images/WordStreamer_focused.jpg" alt="WordStreamerFocused" style="position: absolute; z-index: 3; top: 130px; left: 706px; width: 510px">
 
 <!-- ![bg fit foreground 80%](images/WordStreamerFocused.jpg) -->
 
