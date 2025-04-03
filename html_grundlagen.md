@@ -162,7 +162,6 @@ HTML 5.2 (14.12.2017)
   <rect width="1120" height="100" x="10" y="380" rx="20" ry="20" fill="none" stroke="var(--boxcolor)" stroke-width="2px" />
 </svg>
 
-
 ``` html
 <!DOCTYPE html>
 <html>

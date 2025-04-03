@@ -119,7 +119,6 @@ _Martin Kleindienst_
 
 - <https://ccmixer.edu-sharing.org/>
 
-
 ---
 
 #### Open Educational Resources
