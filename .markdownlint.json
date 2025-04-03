@@ -7,11 +7,13 @@
       "line",
       "style",
       "path",
-      "h4"
+      "h4",
+      "iframe",
+      "a"
     ]
   },
   "MD013": {
-    "line_length": 150,
+    "line_length": 330,
     "code_block_line_length": 120
     },
   "MD036": false,

@@ -50,7 +50,7 @@ _Martin Kleindienst_
 
 1. Was schützt das Urheberrecht?
 2. Wenn du eine Gesangsprobe von dir im Internet veröffentlichst, gilt dann auch das Urheberrecht?
-3. Was hat der „Urheber“ eines Fotos, eines Textes, ... für Rechte?
+3. Welche Rechte hat der „Urheber“ eines Fotos, eines Textes, ... ?
 4. Auf wen beispielsweise kann das Urheberrecht übertragen werden?
 5. Was bedeutet „Vervielfältigungsrecht“?
 6. Darfst du eine Privatkopie von fremden Bildern, Videos, ... anfertigen?
@@ -124,7 +124,7 @@ _Martin Kleindienst_
 
 #### Open Educational Resources
 
-- Lernmaterialien welche mit einer offenen Lizenz veröffentlicht werden.
+- Lernmaterialien, welche mit einer offenen Lizenz veröffentlicht werden.
 
 ##### Offene Lizenztypen (Auswahl)
 
