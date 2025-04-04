@@ -65,6 +65,15 @@ _Martin Kleindienst_
 
 ---
 
+#### Zusatzauftrag
+
+- Gilt das Urheberrecht für alle Ewigkeit?
+
+Tipp 1: Schau im [Gesetzestext zum Urheberrechtsgesetz](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848) nach.
+Tipp 2: Mit `STRG` + `F` kannst du nach Schlagwörtern suchen.
+
+---
+
 ## Lizenzmodelle
 
 - Creative Commons
