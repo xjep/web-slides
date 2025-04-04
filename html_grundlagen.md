@@ -111,10 +111,6 @@ HTML 5.2 (14.12.2017)
 
 ### Das "head" Element
 
-<svg width="1150" height="500" style="position: absolute">
-  <rect width="1120" height="230" x="10" y="115" rx="20" ry="20" fill="none" stroke="var(--boxcolor)" stroke-width="2px" />
-</svg>
-
 ``` html
 <!DOCTYPE html>
 <html>
@@ -135,10 +131,6 @@ HTML 5.2 (14.12.2017)
 
 ### Das "style" Element
 
-<svg width="1150" height="500" style="position: absolute">
-  <rect width="1120" height="100" x="10" y="280" rx="20" ry="20" fill="none" stroke="var(--boxcolor)" stroke-width="2px" />
-</svg>
-
 ``` html
 <!DOCTYPE html>
 <html>
@@ -158,10 +150,6 @@ HTML 5.2 (14.12.2017)
 
 ### Das "body" Element
 
-<svg width="1150" height="500" style="position: absolute">
-  <rect width="1120" height="100" x="10" y="380" rx="20" ry="20" fill="none" stroke="var(--boxcolor)" stroke-width="2px" />
-</svg>
-
 ``` html
 <!DOCTYPE html>
 <html>
@@ -180,10 +168,6 @@ HTML 5.2 (14.12.2017)
 ```
 
 ---
-
-<svg width="1150" height="600" style="position: absolute">
-  <rect width="1120" height="277" x="10" y="263" rx="20" ry="20" fill="none" stroke="var(--boxcolor)" stroke-width="2px" />
-</svg>
 
 ``` html
 <!DOCTYPE html>
