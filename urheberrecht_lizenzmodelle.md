@@ -8,6 +8,9 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
 <style>
+  :root {
+  --boxcolor: oklch(0.879 0.169 91.605);
+  },
   img[alt~="rightbound"] {
     margin-top: -124px;
     height: 310px;
@@ -47,6 +50,10 @@ _Martin Kleindienst_
 </style>
 
 <!-- _header: Dieser Arbeitsauftrag von Christian Hofmeister für www.digikomp.at steht unter einer <a href="https://creativecommons.org/licenses/by/3.0/deed.de">Creative Commons Namensnennung 3.0 Unported Lizenz.</a> -->
+
+<a href="https://creativecommons.org/licenses/by/3.0/deed.de">
+  <img style="position: absolute; padding-left: 700px; margin-top: -20px" src="images/by.png" alt="CC BY" width="120">
+</a>
 
 1. Was schützt das Urheberrecht?
 2. Wenn du eine Gesangsprobe von dir im Internet veröffentlichst, gilt dann auch das Urheberrecht?
