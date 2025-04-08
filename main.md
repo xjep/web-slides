@@ -4,17 +4,9 @@
 - HTML
 - CSS
 
-<<<<<<< HEAD
-## Urheberrecht und Lizenzmodellen
-
-- Mit Magneten auf die Tafel die Zeichnungen der SuS befestigen.
-
-### Lehrplanbezug (6. Schulstufe) zu den Urheberrecht und Lizenzmodellen
-=======
 ## Urheberrecht und Lizenzmodelle
 
 ### Lehrplanbezug (6. Schulstufe) zu den Urheberrecht und Lizenzmodellen Folien
->>>>>>> f71844ac1d6670e209095da71af88822938ef619
 
 - die Rechte am geistigen Eigentum beachten und bei der Erstellung oder beim Remixen von Programmen die entsprechenden Urheberrechte angeben.
 - Lizenzmodelle, insb. offene (Creative Commons, Open Educational Resources, Open Source), benennen, erklären und anwenden.
