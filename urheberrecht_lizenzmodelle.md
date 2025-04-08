@@ -105,6 +105,17 @@ _Martin Kleindienst_
 
 ---
 
+##### Was bedeuten die Symbole
+
+  | Erklärung                                                        | Symbol                                        |
+  | ---------------------------------------------------------------- | :-------------------------------------------: |
+  | Der Autor muss genannt werden.                                   | <img src="images/by.svg" alt="BY" width="89"> |
+  | Das neue Werk muss unter gleicher Lizenz veröffentlicht werden.  | <img src="images/sa.svg" alt="SA" width="89"> |
+  | Für das (neue) Werk darf kein Geld verlangt werden.              | <img src="images/nc.svg" alt="NC" width="89"> |
+  | Das Werk darf nicht verändert werden.                            | <img src="images/nd.svg" alt="ND" width="89"> |
+
+---
+
 ##### Die richtige Lizenz für mich finden
 
 - <https://chooser-beta.creativecommons.org/>
