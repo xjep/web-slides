@@ -8,6 +8,9 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
 <style>
+  :root {
+  --boxcolor: oklch(0.879 0.169 91.605);
+  },
   img[alt~="rightbound"] {
     margin-top: -124px;
     height: 310px;
@@ -48,6 +51,10 @@ _Martin Kleindienst_
 
 <!-- _header: Dieser Arbeitsauftrag von Christian Hofmeister für www.digikomp.at steht unter einer <a href="https://creativecommons.org/licenses/by/3.0/deed.de">Creative Commons Namensnennung 3.0 Unported Lizenz.</a> -->
 
+<a href="https://creativecommons.org/licenses/by/3.0/deed.de">
+  <img style="position: absolute; padding-left: 700px; margin-top: -20px" src="images/by.png" alt="CC BY" width="120">
+</a>
+
 1. Was schützt das Urheberrecht?
 2. Wenn du eine Gesangsprobe von dir im Internet veröffentlichst, gilt dann auch das Urheberrecht?
 3. Welche Rechte hat der „Urheber“ eines Fotos, eines Textes, ... ?
@@ -55,6 +62,15 @@ _Martin Kleindienst_
 5. Was bedeutet „Vervielfältigungsrecht“?
 6. Darfst du eine Privatkopie von fremden Bildern, Videos, ... anfertigen?
 7. Was kann passieren, wenn du in deinen Videos, Blogs, usw. ungefragt fremde Werke verwendest?
+
+---
+
+#### Zusatzauftrag
+
+- Gilt das Urheberrecht für alle Ewigkeit?
+
+Tipp 1: Schau im [Gesetzestext zum Urheberrechtsgesetz](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848) nach.
+Tipp 2: Mit `STRG` + `F` kannst du nach Schlagwörtern suchen.
 
 ---
 
