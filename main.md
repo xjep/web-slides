@@ -35,7 +35,7 @@ Das Recht welches festlegt, ob und wie das (digitale) Werk verbreitet werden dar
 
 #### Darfst du eine Privatkopie von fremden Bildern, Videos, ... anfertigen?
 
-Ja, ich darf sie aber nicht veröffenltichen.
+Ja, ich darf sie aber nicht veröffentlichen.
 
 #### Was kann passieren, wenn du in deinen Videos, Blogs, usw. ungefragt fremde Werke verwendest?
 
