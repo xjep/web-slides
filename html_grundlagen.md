@@ -116,7 +116,7 @@ HTML 5.2 (14.12.2017)
 <html>
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width"/>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
     <title>Big Brother Award</title>
     <!-- usw. Beispielsweise wird hier auch das externe CSS eingebunden -->
     <!-- aber dazu später mehr -->
@@ -136,7 +136,7 @@ HTML 5.2 (14.12.2017)
 <html>
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width"/>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
     <title>Big Brother Award</title>
   </head>
   <style>
@@ -155,7 +155,7 @@ HTML 5.2 (14.12.2017)
 <html>
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width"/>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
     <title>Big Brother Award</title>
   </head>
   <style>
@@ -174,7 +174,7 @@ HTML 5.2 (14.12.2017)
 <html>
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width"/>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
     <title>Big Brother Award</title>
   </head>
   <body>

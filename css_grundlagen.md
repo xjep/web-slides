@@ -47,7 +47,7 @@ _Martin Kleindienst_
 <html>
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width"/>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
     <title>Big Brother Award</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
   </head>
@@ -66,7 +66,7 @@ _Martin Kleindienst_
 <html>
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width"/>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
     <title>Big Brother Award</title>
   </head>
   <style>
@@ -96,7 +96,7 @@ _Martin Kleindienst_
 <html>
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width"/>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
     <title>Big Brother Award</title>
   </head>
   <body>
