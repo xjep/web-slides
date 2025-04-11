@@ -298,3 +298,7 @@ Zur Recherche empfiehlt sich die folgende Website: <https://www.w3schools.com/ht
 14. Bette ein passendes Youtube Video unter der Liste mit den Arbeitsschritten ein.
 
 Tipp: Rufen das YouTube-Video auf. Unter "Teilen" gibt es die Option "Einbetten".
+
+## Musterlösung
+
+<https://youtu.be/o9nrYCr3re0>
