@@ -220,33 +220,6 @@ HTML 5.2 (14.12.2017)
 
 ---
 
-## Gibt's nicht was besseres zum Arbeiten?
-
-<style scoped>
-  footer {
-  margin-bottom: 0px;
-  height: 120px;
-  }
-</style>
-
-<div style="height: 90px;"></div>
-
-<div style="display: flex">
-  <div style="flex: 1; text-align: center">
-    <h4>Visual Studio </br> Code</h4>
-    <img src="images/vscode.svg" alt="VSCode logo" width="150" style="display: block; margin: 0 auto;">
-  </div>
-  <div style="flex: 1.6; text-align: center;">
-    <h4>Visual Studio Code </br> Live Preview Extension</h4>
-    <img src="images/live_preview.png" alt="Live Preview Extension logo" width="150" style="display: block; margin: 0 auto;">
-  </div>
-</div>
-
-<!-- _footer: https://code.visualstudio.com/brand </br> https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
--->
-
----
-
 ## Arbeitsauftrag [1]
 
 Erstelle ein HTML Dokument mit folgenden Vorgaben
@@ -293,17 +266,35 @@ Zur Recherche empfiehlt sich die folgende Website: <https://www.w3schools.com/ht
 
 ---
 
-## Zusatzauftrag [1]
+## Gibt's nicht was besseres zum Arbeiten?
 
-14. Bette ein passendes Youtube Video ein.
+<style scoped>
+  footer {
+  margin-bottom: 0px;
+  height: 120px;
+  }
+</style>
 
-Tipp: Rufen das YouTube-Video auf. Unter "Teilen" gibt es die Option "Einbetten".
+<div style="height: 90px;"></div>
+
+<div style="display: flex">
+  <div style="flex: 1; text-align: center">
+    <h4>Visual Studio </br> Code</h4>
+    <img src="images/vscode.svg" alt="VSCode logo" width="150" style="display: block; margin: 0 auto;">
+  </div>
+  <div style="flex: 1.6; text-align: center;">
+    <h4>Visual Studio Code </br> Live Preview Extension</h4>
+    <img src="images/live_preview.png" alt="Live Preview Extension logo" width="150" style="display: block; margin: 0 auto;">
+  </div>
+</div>
+
+<!-- _footer: https://code.visualstudio.com/brand </br> https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
+-->
 
 ---
 
-## Zusatzauftrag [2]
+## Zusatzauftrag
 
-15. Stelle sicher, dass sich das Bild automatisch verkleinert, wenn du das Fenster verkleinerst.
+14. Bette ein passendes Youtube Video unter der Liste mit den Arbeitsschritten ein.
 
-Du wirst dich hierfür bereits mit CSS beschäftigen müssen.
-Zur Recherche empfiehlt sich auch die folgende Website: <https://www.w3schools.com/css/default.asp>
+Tipp: Rufen das YouTube-Video auf. Unter "Teilen" gibt es die Option "Einbetten".

@@ -10,7 +10,9 @@
       "h4",
       "iframe",
       "a",
-      "rect"
+      "rect",
+      "ul",
+      "li"
     ]
   },
   "MD013": {
