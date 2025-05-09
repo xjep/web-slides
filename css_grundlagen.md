@@ -210,10 +210,10 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 <body>
   <div class="container">
     <div>
-      <h2>Linke Seite</h4>
+      <h2>Linke Seite</h2>
     </div>
     <div>
-      <h2>Rechte Seite</h4>
+      <h2>Rechte Seite</h2>
     </div>
   </div>
 </body>
