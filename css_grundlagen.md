@@ -249,7 +249,7 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 ```html
 <style>
   body {
-    font-family: NAME_DEINER_AUSGWÄßLTEN_SCHRIFTART;
+    font-family: NAME_DEINER_AUSGWÄHLTEN_SCHRIFTART;
     background-color: var(--background);
     padding: 0;
     margin: 0;
