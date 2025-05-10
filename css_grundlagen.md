@@ -35,7 +35,7 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 <div style='float:right'>
 
-  ![rightbound 60%](images/css_logo.svg)
+![rightbound 60%](images/css_logo.svg)
 
 </div>
 
@@ -50,14 +50,14 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ### Einbinden von "External CSS"
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
     <title>CSS is Awesome</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
   </head>
   <style>
     /* Hier wäre Platz für "Internal CSS". Aber dazu auch gleich mehr */
@@ -69,12 +69,12 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ### Einbinden von "Internal CSS"
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
     <title>CSS is Awesome</title>
   </head>
   <style>
@@ -99,17 +99,17 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ### Einbinden von "Inline CSS"
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
     <title>CSS is Awesome</title>
   </head>
   <body>
     <h1 style="color: maroon; font-size: 40px">CSS is Awesome</h1>
-      <p style="color: lightblue">
+    <p style="color: lightblue">
       CSS macht es uns möglich unsere HTML Dokumente ansprechend zu gestalten.
     </p>
   </body>
@@ -120,12 +120,12 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ### Wie geht das jetzt mit dem Bild?
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
     <title>CSS is Awesome</title>
   </head>
   <body>
@@ -179,28 +179,28 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ### CSS Boxmodell [2]
 
-``` html
-  <style>
-    .boxstyle {
-      padding-top: 14px;
-      padding-right: 44px;
-      padding-bottom: 50px;
-      padding-left: 80px;
-      border-style: solid;
-      border-width: 25px 10px 4px 35px;
-      margin-top: 100px;
-      margin-bottom: 100px;
-      margin-right: 150px;
-      margin-left: 80px;
-    }
-  </style>
+```html
+<style>
+  .boxstyle {
+    padding-top: 14px;
+    padding-right: 44px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+</style>
 ```
 
 ---
 
 ### Flex Boxes
 
-``` html
+```html
 <style>
   .container {
     display: flex;
@@ -225,33 +225,90 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 - Kommentiere das Bild aus. (Wir machen später damit etwas.)
 - Lege eine Farbpalette für dein HTML Dokument fest. Du kannst dafür z.B. [diese Seite](https://www.realtimecolors.com/) nutzen.
-- Ändere für das gesamte Dokument die Schriftart. [Tipp](https://www.w3docs.com/snippets/css/how-to-apply-global-font-to-the-entire-html-document.html)
-- Nutze die Farben und passe damit die Überschriften und Texte an.
-- Gib jedem zweiten Abschnitt (damit ist Überschrift + Weiteres Element gemeint) die gleiche Hintergrundfarbe.
+
+```html
+<style>
+  :root {
+    --text: FARBE1;
+    --background: FARBE2;
+    --primary: FARBE3;
+    --secondary: FARBE4;
+    --accent: FARBE5;
+  }
+</style>
+```
 
 ---
 
 ## Auftrag [2]
 
-- Füge Zwischen den Abschnitten einen Übergang mit einer Vektorgrafik ein.
-- Nutze zum Erstellen der Vektorgrafik am besten [diese Seite](https://yqnn.github.io/svg-path-editor/#P=M_0_120_L_120_101.2_C_240_82.8_480_45.2_720_54.8_C_960_64_1200_120_1440_169.2_C_1680_218.8_1920_261.2_2160_296.8_C_2400_332_2640_360_2880_313.2_C_3120_266.8_3360_145.2_3480_84.8_L_3600_24_V_380_H_0_Z).
-- Tipp: Setze den `fill` parameter auf `fill="var(--DEINFARBENNAME)"`
+- Ändere für das gesamte Dokument die Schriftart.
+- Gib dem Hintergrund eine deiner ausgewählten Farben.
+- Entferne das padding und margin vom body.
+
+```html
+<style>
+  body {
+    font-family: NAME_DEINER_AUSGWÄßLTEN_SCHRIFTART;
+    background-color: var(--background);
+    padding: 0;
+    margin: 0;
+  }
+</style>
+```
 
 ---
 
 ## Auftrag [3]
 
-- Füge im Abschnitt ``Zutaten`` das Bild wieder ein.
-- Stelle sicher, dass das Bild abhängig von der Fenstergröße entweder neben oder unter der Liste mit den Zutaten angezeigt wird.
+Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hintergrundfarbe und füge ``padding`` hinzu.
+
+```html
+<style>
+  .content {
+    padding: 5rem;
+  }
+</style>
+```
+
+```html
+<div class="content" style="background-color: FARBE">
+  <h2>Ich bin eine Überschrift</h2>
+  <p>Ich bin ein Absatz</p>
+</div>
+```
 
 ---
 
 ## Auftrag [4]
 
+- Füge im Abschnitt `Zutaten` das Bild wieder ein.
+- Stelle sicher, dass das Bild abhängig von der Fenstergröße entweder neben oder unter der Liste mit den Zutaten angezeigt wird.
+- Tipp: Folie 11
+- Passe außerdem die Abstände zwischen den Elementen an, damit Text und Bild nicht mehr ganz am Rand erscheinen und zwischen Bild und Text ein Abstand existiert.
+
+---
+
+## Auftrag [5] (Machen wir gemeinsam)
+
+- Füge Zwischen den Abschnitten einen Übergang mit einer Vektorgrafik ein.
+- Nutze zum Erstellen der Vektorgrafik [Haikei](https://app.haikei.app/) und passe den Pfad mit dem [svg-path-editor](https://yqnn.github.io/svg-path-editor/) an.
+
+```html
+<svg viewBox="0 0 3600 370">
+  <!-- Parameter sind anzupassen! -->
+  <path fill="DIE_ANDERE_FARBE" d="" />
+</svg>
+```
+
+---
+
+## Auftrag [6]
+
 Füge ein fixiertes Menü für die einzelnen Überschriften ein.
 
 - Wenn du auf eine der Überschriften im Menü clickst solltest du direkt zum jeweiligen Abschnitt hüpfen.
-Tipp: Verwende dazu das ``<a>`` Element.
+  Tipp: Verwende dazu das `<a>` Element.
 - Orientieren dich gegebenenfalls an diesem [Tutorial](https://www.w3schools.com/howto/howto_css_fixed_menu.asp).
 
 ---
