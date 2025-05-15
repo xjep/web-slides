@@ -49,7 +49,6 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 
 <!--
 backgroundImage: url(images/scratch/background_1.svg) 
-color: rgb(230, 226, 9)
 -->
 
 ---
@@ -88,7 +87,6 @@ color: rgb(230, 226, 9)
 
 <!--
 backgroundImage: url(images/scratch/background_2.svg)
-color: rgb(33, 33, 33)
 -->
 
 ---
@@ -134,3 +132,18 @@ color: rgb(33, 33, 33)
 ---
 
 ![bg fit](images/scratch/stretch_4.png)
+
+---
+
+## Crab Clicker 2.0
+
+<!-- backgroundImage: url('https://marp.app/assets/hero-background.svg') -->
+
+- [Musterlösung](https://scratch.mit.edu/projects/1175945137)
+
+### Verbesserungen
+
+- Schönere Bewegungen von Fisch und Taucher
+- Möglichkeit Fisch und Taucher ein und auszuschalten
+- Countdown
+- Endbildschirm

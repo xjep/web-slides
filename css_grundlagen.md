@@ -261,7 +261,7 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ## Auftrag [3]
 
-Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hintergrundfarbe und füge ``padding`` hinzu.
+Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hintergrundfarbe und gib den Abschnitten etwas ``padding``.
 
 ```html
 <style>
